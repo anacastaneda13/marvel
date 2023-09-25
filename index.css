@@ -18,8 +18,8 @@
     transform: translateX(-50%);
     left: 50%;
     right: 50%;
-    top: 1em;
-    border-radius: 1em;
+    top: 2em;
+    border-radius: 10em;
   }
   .input-container {
     display: grid;
@@ -51,34 +51,34 @@
     width: 9.37em;
     display: block;
     margin: auto;
-    border-radius: 70%;
+    border-radius: 10%;
   }
   .container-character-image img {
     width: 100%;
     position: relative;
     width: block;
-    border-radius: 70%;
+    border-radius: 10%;
   }
   .character-name {
-    padding: 0.5em 0 0.8em 0;
+    padding: 0.5em 0 0.8em 10;
     text-align: center;
     color: #fdfcfc;
     text-transform: uppercase;
     font-size: 2em;
-    font-weight: 600;
+    font-weight: 1000;
   }
   .title {
     padding: 0em 0 0.8em 0;
     text-align: center;
-    color: #fafafa;
+    color: #fdfcfc;
     text-transform: uppercase;
     font-size: 1em;
-    font-weight: 600;
+    font-weight: 1000;
   }
   .character-description {
     text-align: justify;
     color: #a0a0a6;
-    line-height: 1.5em;
+    line-height: 1.2em;
     font-weight: 300;
   }
   .character-comics {
