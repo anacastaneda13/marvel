@@ -2,7 +2,7 @@
     padding: 1;
     margin: 1;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Arial", sans-serif;
   }
   body {
     background-color: #080808;
@@ -45,7 +45,7 @@
     padding: 1em;
   }
   .container-character-image {
-    background-color: #ffffff;
+    background-color: #f30606;
     padding: 0.5em;
     height: 9.37em;
     width: 9.37em;
@@ -65,7 +65,7 @@
     color: #fdfcfc;
     text-transform: uppercase;
     font-size: 2em;
-    font-weight: 1000;
+    font-weight: 700;
   }
   .title {
     padding: 0em 0 0.8em 0;

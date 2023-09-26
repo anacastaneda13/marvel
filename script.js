@@ -7,6 +7,7 @@ let ts = "1695499326160";
 let publicKey = "d49cf42ae460ce64823ac743089a34d0";
 let hashVal = "e957f04f71b62523f50175a7f70c9ee5";
 
+//Para obtener el ts
 let date = new Date();
 //console.log(date.getTime());
 
@@ -49,7 +50,7 @@ button.addEventListener(
   "click",
   (getRsult = async () => {
     if (input.value.trim().length < 1) {
-      alert("Input cannot be blank");
+      alert("Ingrese el nombre de algun personaje");
     }
     showContainer.innerHTML = "";
     const url = `https://gateway.marvel.com:443/v1/public/characters?ts=${timestamp}&apikey=${apiKey}&hash=${hashValue}&name=${input.value}`;
